@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width:600px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+#box {
+    color:#f0be1c;
+    background:currentColor;
+    padding: 15px;
+    transition: .1s;
+}
+button {
+    width:100px;
+    padding: 10px;
+    border:none;
+    border-radius: 40px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+#btn-items {
+    margin-top:350px;
+   
+}
+button[name="facebook"] {
+    background:#36368a;
+}
+button[name="youtube"] {
+    background:#d33f3f;
+}
+button[name="android"] {
+    background:#1b6913;
+}
+button[name="skype"] {
+    background:#47a8c5;
+}
+button[name="uncollapse"] {
+    background: #b610a0;
+}
+#icon {
+    width:200px;
+    height: 200px;
+}
+h1 {
+    display: flex;
+    width:100%;
+    align-items: center;
+    font-size: 10px;
+    color:orange;
+    text-transform: uppercase;
+}
+h1::before,
+h1::after {
+    content: "";
+    background: #d12e2e;
+    border-width: .05em 0;
+    height: .1em;
+    margin: .2em;
+    flex:1;
+}

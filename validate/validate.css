@@ -1,0 +1,39 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+input {
+    padding: 10px;
+    width: 400px;
+    margin-top: 10px;
+    border:2px solid;
+    outline: none;
+    border-radius: 40px;
+}
+button {
+    padding: 12px;
+    width: 100px;
+    border:none;
+    border-radius: 40px;
+    margin-left: 390px;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+}
+#userError {
+    color:red;
+    display: none;
+}
+#userSuccess {
+    color:green;
+    display:none;
+}
+#passError {
+    color:red;
+    display: none;
+}
+#passSuccess {
+    color:green;
+    display:none;
+}
